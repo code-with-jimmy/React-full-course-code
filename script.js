@@ -265,6 +265,121 @@
 // #10 vide course?
 // ================
 
+// interview qustion        👈👈👈
+// =================
+
+
+// const App = () => {
+//   const student = [];
+//   console.log(Boolean(student.length))
+//   return(
+//     <>
+//       /1st
+// <p>{student.length === 0 && "not"}</p>
+      
+//       2st
+// <p>{!Boolean(student.length) && "not"}</p>
+ 
+//     3st
+// <p>student length: {student.length}</p>
+//     </>
+//   )
+// }
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+
+// ================
+// #11 vide course?
+// ================
+
+// export and import
+// =================
+
+// 1. export 
+
+
+// export const App = () => {
+//   return (
+//     <>
+//       <h1>export this value</h1>
+//     </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+// // export default App;
+
+
+
+// // secend file me ye dalo    👈
+
+// import {App, Name} from "./components/App";
+
+// const Free = () => {
+//   return (
+//     <>
+//       <App />
+//       <App />
+//       <Name/>
+//     </>
+//   );
+// };
+
+
+// // multiple componets and export  👈
+
+
+// export const Name = () => {
+//   return <h1>hello</h1>
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<Name/>)
+
+
+
+
+// ================
+// #12 vide course?
+// ================
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
