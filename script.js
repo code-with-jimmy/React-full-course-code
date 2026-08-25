@@ -344,35 +344,128 @@
 // #12 vide course?
 // ================
 
-// looping in jsx 
-// ===============
+// looping in map()
+// =================
+
+
+
+// const names = ["ram", "vinod", "jimmy"];               
+//                         //global
+
+
+// const App = () => {
+//   return (
+//   names.map((curl) => {
+//     return (
+//     <div key={curl}>
+//     <h1>hello {curl}</h1>
+//     </div>
+//     )
+//   })
+//   )
+// }
+
+// const Riot = () => {
+//   return (
+//     <>
+//     <App/>
+//     </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<Riot/>)
 
 
 
 
+// ================
+// #13 vide course?
+// ================
+
+
+// const names = ["ram", "vinod", "jimmy"];               
+// //                         //global
+
+
+// const App = () => {
+//   return (
+// names.map((curl) => {
+// return <Card key={curl} curl={curl}/>
+//   })
+//   )
+// }
+
+// const Riot = () => {
+//   return (
+//     <>
+//     <App/>
+//     </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<Riot/>)
 
 
 
 
+// // secend file
+
+// const Card = (props) => {
+//   return (
+//     <>
+//     <h1>hello {props.curl}</h1>
+//     </>
+// )
+// }
 
 
 
 
+// ================
+// #14 vide course?
+// ================
+
+
+
+// const names = ["ram", "vinod", "jimmy"];               
+// //                         //global
+
+
+// const App = () => {
+//   return (
+// names.map((curl) => {
+// return <Card key={curl} data={curl}/>
+//   })
+//   )
+// }
+
+// const Riot = () => {
+//   return (
+//     <>
+//     <App/>
+//     </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<Riot/>)
 
 
 
 
+// // secend file
+
+// const Card = (props) => {
+//   let {data} = props;
+//   return (
+//     <>
+//     <h1>hello {data}</h1>
+//     </>
+// )
+// }
 
 
 
-
-
-
-
-
-
-
-
+ 
 
 
 
