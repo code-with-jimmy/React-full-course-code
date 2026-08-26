@@ -47,7 +47,7 @@
 
 
 // ================
-// #4 vide course?
+// #4 video course?
 // ================
 
 // 1. Node_moduls => (it's no tuch)
@@ -70,7 +70,7 @@
 
 
 // ================
-// #5 vide course?
+// #5 video course?
 // ================
 
 
@@ -113,7 +113,7 @@
 
 
 // ================
-// #6 vide course?
+// #6 video course?
 // ================
 
 // React componet?
@@ -145,7 +145,7 @@
 
 
 // ================
-// #7 vide course?
+// #7 video course?
 // ================
 
 
@@ -173,7 +173,7 @@
 
 
 // ================
-// #8 vide course?
+// #8 video course?
 // ================
 
 // add dynamic value 
@@ -216,7 +216,7 @@
 
 
 // ================
-// #9 vide course?
+// #9 video course?
 // ================
 
 // conditionals in jsx
@@ -262,7 +262,7 @@
 
 
 // ================
-// #10 vide course?
+// #10 video course?
 // ================
 
 // interview qustion        👈👈👈
@@ -290,7 +290,7 @@
 
 
 // ================
-// #11 vide course?
+// #11 video course?
 // ================
 
 // export and import
@@ -341,7 +341,7 @@
 
 
 // ================
-// #12 vide course?
+// #12 video course?
 // ================
 
 // looping in map()
@@ -379,7 +379,7 @@
 
 
 // ================
-// #13 vide course?
+// #13 video course?
 // ================
 
 
@@ -422,7 +422,7 @@
 
 
 // ================
-// #14 vide course?
+// #14 video course?
 // ================
 
 
@@ -468,19 +468,126 @@
  
 
 // ================
-// #15 vide course?
+// #15 video course?
 // ================
 
+// fixed the Error chatgpt...
+// ==========================
+
+
+
+
+// =================
+// #16 video course?
+// =================
+
+// passing jsx as props
+// ====================
+
+
+// function Profile() {
+//   return(
+//     <div>
+//       <h1>hello jimmy!</h1>
+//       <ProfileCard
+//       name="Alex"
+//       age={20}
+//       greetline={
+//         <div>
+//         <h1>i am boy</h1>
+//         </div>
+//       }
+//       >
+//       <p>hobby : free fire</p>
+//       <button>Watch</button>
+//       </ProfileCard>
+//     </div>
+//   )
+// }  
+
+
+
+// const App = () => {
+//   return (
+//     <>
+//     <Profile/>
+//     </>
+//   )
+// }
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+
+// // secend 
+
+
+// function ProfileCard({name, age, greetline, children}) {
+//   return(
+//     <>
+//     <p>name:{name}</p>
+//     <p>age:{age}</p>
+//   <div>file:{greetline}</div>
+//     <div>{children}</div>
+//     </>
+//   )
+// }
 
 
 
 
 
+// =================
+// #17 video course?
+// =================
+
+// css style in react
+// ==================
+
+
+// css tarika only 5 
+
+// tarika 1-2 external && inline
+
+// const Filter = () => {
+//   return(
+//     <div>
+//   <h1 className="contain">Hello</h1>
+//     <p style={{color : "blue", fontSize : "20px"}}>hii iam jimmy and i am boy</p>
+//     </div>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<Filter/>)
+
+
+
+
+// traika 3 Internal
+// ===================
+
+
+// const Filter = () => {
+//   const myStyle = {
+//     color : "blue",
+//     fontSize : "20px"
+//   }
+//   return(
+//     <div>
+//   <h1 style={myStyle}>Hello</h1>
+//     <p>hii iam jimmy and i am boy</p>
+//     </div>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<Filter/>)
 
 
 
 
 
+// =================
+// #18 video course?
+// =================
 
 
 
