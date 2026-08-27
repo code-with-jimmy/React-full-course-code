@@ -589,6 +589,115 @@
 // #18 video course?
 // =================
 
+// inline in css 
+// =============
+
+// const App = () => {
+//   const Btn = {
+//     color: "blue",
+//     border: "2px solid blue",
+//     backgroundColor: "transprant"
+//   } 
+//   return (
+//     <>
+//     <p style={{color: "blue"}}>hello i am blue</p>
+//     <button style={Btn}>Here</button>
+//     </>
+//   )
+// }
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+
+// =================
+// #19 video course?
+// =================
+
+// Conditionals styling in react 
+// ===========================
+
+// const App = () => {
+//   const age = 19;
+  
+//   const Rating = age >= 18 ? "super" : "hit";
+  
+
+//   return(
+//     <>
+//     <p>hello i am <span className={Rating}> {age}</span></p>
+//     </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+ 
+
+
+// =================
+// #20 video course?
+// =================
+
+
+// css modules in react 
+// =====================
+
+
+// const App = () => {
+//   return(
+//     <>
+//     <h1 className={style.super}>hello i am module</h1>
+//     </>
+//   )
+// }
+
+
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+
+
+// =================
+// #21 video course?
+// =================
+
+// STYLED COMPONENTS IN REACT JS
+// =============================
+
+// ============================
+// ❌❌❌❌❌❌❌❌❌❌❌❌❌
+// ===========================
+
+// const Jimmy = styled.h1`
+//   background-color: "red";
+//   font-size: "20px";
+//   `
+
+// const App = () => {
+  
+//   return(
+//     <>
+//     <h1>i am COMPONENTS</h1>
+//     </>
+//   )
+// }
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+
+// =================
+// #22 video course?
+// =================
+
+// TAILWIND CSS IN REACT JS
+// =========================
+ 
+
+
+
+
 
 
 
