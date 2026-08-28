@@ -693,7 +693,214 @@
 
 // TAILWIND CSS IN REACT JS
 // =========================
+
+// installing vit in TAILWIND
+// ============================
+
+// const App = () => {
+//   return (
+//     <div className="bg-blue-600 text-white p-5 rounded-xl m-4 text-center">
+//       <h1 className="text-2xl font-bold">Hello Jimmy!</h1>
+//       <p className="mt-2 text-blue-100">Tailwind Mobile me mast chal raha hai!</p>
+//     </div>
+//   );
+// };
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+
+
+
+// =================
+// #23 video course?
+// =================
+
+// EVENT HANDLING IN REACT
+// =======================
+
+// =========
+// TARIKA 1
+// =========
+
+// const EventClik = () => {
+//   // function handLer(){
+//   //   alert("hey i am happy");
+//   // }                       
+//                           // 1tarika
+  
+//   const EventClik = (event) => {
+//     console.log(event);
+//     console.log(event.target);
+//     console.log(event.type);
+//     alert("hey i am happy");
+//   }
+  
+//     let MyReact = {
+//     background: "blue",
+//     padding:"10px"
+//   }
+//   return(
+//     <>
+//     <button style={MyReact} onClick={EventClik}>Click me</button>
+//     </>
+//   )
+// }
+// ReactDOM.createRoot(document.getElementById("root")).render(<EventClik/>)
+
+
+// =========
+// TARIKA 2
+// =========
+
+// USING FAT ARROW FUNC.
+// ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
+
+
+// const EventCliking = () => {
+
+//       const EventClik = (event) => {
+//         console.log(event);
+//         console.log(event.target);
+//         console.log(event.type);
+//         alert("hey i am happy");
+//       }
+      
+//     const EventClike = (user) => {
+//       console.log(`${user} i am happy`)
+//       }
+      
+
+//         let MyReact = {
+//         background: "blue",
+//         padding:"10px"
+//       }
+//       return(
+//         <>
+//           1st
+//         <button style={MyReact} onClick={(event) => EventClik(event)}>Click me</button>
+        
+//         2st
+// <button style={MyReact} onClick={() => alert("hey iam")}>Click me i am inline</button>
+        
+//               3st
+//         <button style={MyReact} onClick={(event) => EventClike("jimmy")}>Click me?</button>
+//         </>
+//       )
+//     }
+//     ReactDOM.createRoot(document.getElementById("root")).render(<EventCliking/>)
  
+
+
+
+// =================
+// #24 video course?
+// =================
+
+// EVENTS AS PROPS IN REACT
+// =========================
+
+// parent to child
+
+// const Child = (prop) => {
+//   return(
+//     <>
+//     <button onClick={prop.pataNahi}>child</button>
+//     </>
+//   )
+// }
+
+// const App = () => {
+//   const keys = () => {
+//     alert("hi am parent kya sahi ha")
+//   }
+//   return(
+//     <>
+//     <button onClick={keys}>papa me</button>
+    
+//     <Child pataNahi={keys}></Child>
+    
+//     </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+
+
+// child to parent
+
+
+// const Child = (prop) => {
+//   return(
+//     <>
+//     <button onClick={() => prop.pataNahi("jimmy")}>child</button>
+//     </>
+//   )
+// }
+
+// const App = () => {
+//   const keys = (name) => {
+//     alert("hi am parent kya sahi ha " + name)
+//   }
+//   return(
+//     <>
+//     <button onClick={keys}>papa me</button>
+    
+//     <Child pataNahi={keys}></Child>
+    
+//     </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+
+
+// =================
+// #25 video course?
+// =================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
