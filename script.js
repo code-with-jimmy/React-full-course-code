@@ -861,26 +861,161 @@
 // #25 video course?
 // =================
 
+// REACT EVENT PROPAGATION
+// =========================
+
+
+// const grandPrant = () => {
+//     console.log("i am grandPrant");
+// }
+
+// const parent = () => {
+//      console.log("i am parent");
+// }
+
+// const child = (e) => {
+// //   e.stopPropagation()     //only chid
+//     console.log("me child")    
+// }
+
+
+// const App = () => {
+// return(
+//   <>
+//  <div onClick={grandPrant}>
+//    <div onClick={parent}>
+//         <button onClick={child}>child click</button>
+//   </div>
+    
+//     </div>
+//       </>
+//         )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+
+// ≈≈≈≈≈≈≈≈≈≈
+// Capture
+// ≈≈≈≈≈≈≈≈≈≈
+
+
+// const grandPrant = () => {
+//     console.log("i am grandPrant");
+// }
+
+// const parent = () => {
+//      console.log("i am parent");
+// }
+
+// const child = (e) => {
+// //   e.stopPropagation()     //only chid
+//     console.log("me child")    
+// }
+
+
+// const App = () => {
+// return(
+//   <>
+//  <div onClickCapture={grandPrant}>
+//    <div onClickCapture={parent}>
+//         <button onClickCapture={child}>child click</button>
+//   </div>
+    
+//     </div>
+//       </>
+//         )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
 
 
 
 
 
 
+// ===================
+// #26 video course?
+// ==================
+
+
+// STATE IN REACT JS
+// =================
+
+// import  {useState} from "react"; //npm using pc
+
+
+
+// const App = () => {
+        
+// const [count, setCount] = useState(0);
+
+// const handeler = () => {
+//         setCount(() => count + 1)
+// }
+        
+//     return(
+//         <>
+//         <h1>{count}</h1>
+//         <button onClick={handeler}>click</button>
+//         </>
+//     )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+
+
+// ===================
+// #27 video course?
+// ===================
+
+
+// HOW REACT STATE WORKS?
+// ======================
 
 
 
 
 
+// const App = () => {
+        
+// const [count, setCount] = React.useState(0);
+// console.log("i am parent")
+
+// const handeler = () => {
+//         setCount(() => count + 1)
+// }
+        
+//     return(
+//         <>
+//         <h1>{count}</h1>
+//         <button onClick={handeler}>click</button>
+//         <Child count={count}/>
+//         </>
+//     )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+// const Child = ({count}) => {
+//     console.log("i am child jimmy");
+//     return(
+//         <>
+//         <h2>hello jimmy - {count}</h2>
+//         </>
+//     )
+// }
 
 
 
 
-
-
-
-
-
+// ===================
+// #28 video course?
+// ==================
 
 
 
