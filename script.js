@@ -1013,51 +1013,276 @@
 
 
 
+if (true) {
+  
+}
+
+// STATE NOT RESETTING ON RE-RENDER
+// ===============================
+
+
+// const App = () => {
+        
+// const [count, setCount] = React.useState(0);
+// console.log("i am parent")
+
+// const handeler = () => {
+//         setCount(() => count + 1)
+// }
+        
+//     return(
+//         <>
+//         <h1>{count}</h1>
+//         <button onClick={handeler}>click</button>
+//         <Child count={count}/>
+//         </>
+//     )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+// const Child = ({count}) => {
+//     console.log("i am child jimmy");
+//     return(
+//         <>
+//         <h2>hello jimmy - {count}</h2>
+//         </>
+//     )
+// }
+
+
+
+
 // ===================
-// #28 video course?
-// ==================
+// #29 video course?
+// ===================
+
+// USESTAТЕ НООK CHALLENGE
+// =======================
+
+
+
+// const users = [
+//   {name : "jimmy", age : 19},
+//   {name : "vinod", age : 39},
+// {name : "ram", age : 27},
+// {name : "sumit", age : 18}
+
+// ];
+
+
+
+// const App = () => {
+  
+//   return(
+//     <>
+//     <h1>user list</h1>
+//     <ul>
+//       {users.map((curl, index) => {
+//   return(
+
+//     <li key={index}>
+//       {curl.name} - {curl.age}</li>
+//       )
+//     })}
+//     </ul>
+//     </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
+
+
+
+// use hook state tarika 2
+// ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
 
 
 
 
 
+// const App = () => {
+  
+//   let [users, setusers] = React.useState([{name : "jimmy", age : 19},
+//   {name : "vinod", age : 39},
+// {name : "ram", age : 27},
+// {name : "sumit", age : 18}
+// ])
+  
+//   return(
+//     <>
+//     <h1>user list</h1>
+//     <ul>
+//       {users.map((curl, index) => {
+//   return(
+
+//     <li key={index}>
+//       {curl.name} - {curl.age}</li>
+//       )
+//     })}
+//     </ul>
+//     </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
 
 
 
 
+// ===================
+// #30 video course?
+// ===================
+
+
+// DERIVED STATE IN REACT
+// =======================
+
+
+// const App = () => {
+  
+//   let [users, setusers] = React.useState([{name : "jimmy", age : 19},
+//   {name : "vinod", age : 39},
+// {name : "ram", age : 27},
+// {name : "sumit", age : 18}
+// ]);
+
+// let user = users.length;
+
+// let userCount = (users.reduce((acum, curl) => acum + curl.age, 0)) / user
+  
+  
+//   return(
+//     <>
+//     <h1>user list</h1>
+//     <ul>
+//       {users.map((curl, index) => {
+//   return(
+
+//     <li key={index}>
+//       {curl.name} - {curl.age}</li>
+//       )
+      
+//     })}
+//     <li>{userCount}</li>
+//     </ul>
+//     </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
 
 
 
 
+// ===================
+// #31 video course?
+// ===================
+
+// LIFTING THE STATE UP REACT 
+// ==========================
+
+// const Fction = () => {
+//   let [input, setInput] = React.useState("");
+//   return(
+//     <>
+//     <App input={input} setInput={setInput}/>
+//     <Jimmy input={input}/>
+//   </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<Fction/>)
+
+
+// const App = ({input, setInput}) => {
+  
+//   return(
+//     <>
+//     <input type="text" 
+//     value={input}
+//     onChange={(e)=> setInput(e.target.value)}
+//     ></input>
+//     </>
+//   )
+// }
+
+
+
+// const Jimmy = ({input}) => {
+//   return(
+//     <>
+//     <p>hello jimmy kaise ho:{input}</p>
+//     </>
+//   )
+// }
 
 
 
 
+// ===================
+// #32 video course?
+// ===================
+
+// REACT TOGGLE SWITCH  APP
+// ========================
+
+
+// const App = () => {
+//   let [isOn, setIsOn] = React.useState(true);
+  
+// const Switch = () => {
+//   setIsOn(!isOn)
+// }
+
+// const Ternery = isOn ? "on" : "off";
+
+// const Prnt = !isOn ? "purple" : "green"
+
+//   return(
+//     <>
+// <div className="parent" 
+// onClick={Switch} style={{backgroundColor : Prnt}}>
+  
+// <div className={`switche ${Ternery}`}>
+  
+// <span>{Ternery}</span>
+//     </div>
+//     </div>
+//     </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
 
 
 
+// ===================
+// #33 video course?
+// ===================
+
+// REACT BEST ICON LIBARARY
+// ==========================
+
+// const App = () => {
+//   return (
+//     <div>
+//       <i className="fa-solid fa-house"></i>
+//       <i className="fa-solid fa-user"></i>
+//       <i className="fa-solid fa-heart" style={{ color: "red" }}></i>
+//     </div>
+//   );
+// };
+
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ===================
+// #34 video course?
+// ===================
 
 
 
