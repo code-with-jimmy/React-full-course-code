@@ -1359,28 +1359,244 @@ if (true) {
 
 
 
+
+// ==================
+// #35 video course?
+// ==================
+
 // Day 2 ⭐ ⭐ ⭐ 
 // ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
 
+// DATE TIME IN TODO APP
+// =====================
+
+
+
+// const App = () => {
+//   const [isValue, setIsValue] = React.useState("");
+  
+//   const [task, setTask] = React.useState([]);
+  
+// const [mydate, setMydate] = React.useState("");
+  
+  
+//   const EventHandler = (value) => {
+//     setIsValue(value)
+//   }
+  
+  
+//       //  add date function
+//   const Clock = () => {
+//   const getDate = new Date().toLocaleDateString();
+  
+//   // add time function
+//   const liveTime = new Date().toLocaleTimeString();
+  
+//     // function update
+  
+//   setMydate(`${getDate} - ${liveTime}`)
+  
+//   }
+
+//   // setInterval function
+  
+//   setInterval(Clock, 1000)
+  
+  
+  
+  
+//   const submitBtn = (e) => {
+//     e.preventDefault();
+//     if(!isValue) return;
+    
+//     if(task.includes(isValue)){
+//       setIsValue("");
+//       return;
+//     } 
+    
+//     setTask((prev) => [...prev, isValue]);
+    
+//     setIsValue("");
+    
+
+    
+//   }
+  
+//     return(
+//     <>
+//   <section className="container"> 
+// <header>
+//   <h1>todo app</h1>
+//   <h2 className="time">{mydate}</h2>
+// </header>
+//   <section className="from">
+//     <form onSubmit={submitBtn}>
+//       <div>
+//     <input type="text" className="todo-input"
+//     value={isValue}
+//     onChange={(e)=> EventHandler(e.target.value)}
+//     />
+//       </div>
+//       <button id="btn" type="submit">Add</button>
+//     </form>
+//   </section>
+  
+  
+//   <section className="list">
+//     <ul>
+//       {
+//         task.map((curl, index) => {
+//           return <li key={index}>
+//           <span>{curl}</span>
+//           <button>✔️</button>
+//           <button>️❌</button>
+//           </li>
+//         })
+//       }
+//     </ul>
+//   </section>
+  
+// </section>
+// </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+
+
+
+
+// ==================
+// #36 video course?
+// ==================
+
+// Day 3 ⭐ ⭐ ⭐ 
+// ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
+
+// DELETE && CLEAR ALL
+// =====================
+
+
+// const App = () => {
+//   const [isValue, setIsValue] = React.useState("");
+  
+//   const [task, setTask] = React.useState([]);
+  
+// const [mydate, setMydate] = React.useState("");
+  
+  
+//   const EventHandler = (value) => {
+//     setIsValue(value)
+//   }
+  
+  
+//       //  add date function
+//   const Clock = () => {
+//   const getDate = new Date().toLocaleDateString();
+  
+//   // add time function
+//   const liveTime = new Date().toLocaleTimeString();
+  
+//     // function update
+  
+//   setMydate(`${getDate} - ${liveTime}`)
+  
+//   }
+
+//   // setInterval function
+  
+//   setInterval(Clock, 1000)
+  
+  
+//   // deletFct function
+
+// const deletFct = (valuess) => {
+//   console.log(task)
+//   // console.log(valuess)
+//   const Update = task.filter((task) => 
+//     task !== valuess)
+//     setTask(Update)
+  
+// }
+
+// // clearAll btn
+
+// const clearAll = () => {
+//   setTask([]);
+// }
+  
+  
+  
+//   const submitBtn = (e) => {
+//     e.preventDefault();
+//     if(!isValue) return;
+    
+//     if(task.includes(isValue)){
+//       setIsValue("");
+//       return;
+//     } 
+    
+//     setTask((prev) => [...prev, isValue]);
+    
+//     setIsValue("")
+     
+//   }
+  
+//     return(
+//     <>
+//   <section className="container"> 
+// <header>
+//   <h1>todo app</h1>
+//   <h2 className="time">{mydate}</h2>
+// </header>
+//   <section className="from">
+//     <form onSubmit={submitBtn}>
+//       <div>
+//     <input type="text" className="todo-input"
+//     value={isValue}
+//     onChange={(e)=> EventHandler(e.target.value)}
+//     />
+//       </div>
+//       <button id="btn" type="submit">Add</button>
+//     </form>
+//   </section>
+  
+  
+//   <section className="list">
+//     <ul>
+//       {
+//         task.map((curl, index) => {
+//           return <li key={index}>
+//           <span>{curl}</span>
+//           <button>✔️</button>
+//         <button onClick={()=> deletFct(curl)}>️❌</button>
+//           </li>
+//         })
+//       }
+//     </ul>
+//   </section>
+  
+//   <section>
+//     <button onClick={clearAll}>clear All</button>
+//   </section>
+  
+// </section>
+// </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 
 
 
 
 
+// ==================
+// #37 video course?
+// ==================
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Day 4 ⭐ ⭐ ⭐ 
+// ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
 
 
 
