@@ -1284,6 +1284,145 @@ if (true) {
 // #34 video course?
 // ==================
 
+// TODO APP IN REACT
+// =================
+
+// Day 1 ⭐ ⭐ ⭐ 
+// ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
+
+// const App = () => {
+//   const [isValue, setIsValue] = React.useState("");
+  
+//   const [task, setTask] = React.useState([]);
+  
+  
+//   const EventHandler = (value) => {
+//     setIsValue(value)
+//   }
+  
+//   const submitBtn = (e) => {
+//     e.preventDefault();
+//     if(!isValue) return;
+    
+//     if(task.includes(isValue)){
+//       setIsValue("");
+//       return;
+//     } 
+    
+//     setTask((prev) => [...prev, isValue]);
+    
+    
+//     setIsValue("");
+    
+//   }
+  
+//     return(
+//     <>
+//   <section className="container"> 
+// <header>
+//   <h1>todo app</h1>
+// </header>
+//   <section className="from">
+//     <form onSubmit={submitBtn}>
+//       <div>
+//     <input type="text" className="todo-input"
+//     value={isValue}
+//     onChange={(e)=> EventHandler(e.target.value)}
+//     />
+//       </div>
+//       <button id="btn" type="submit">Add</button>
+//     </form>
+//   </section>
+  
+  
+//   <section className="list">
+//     <ul>
+//       {
+//         task.map((curl, index) => {
+//           return <li key={index}>
+//           <span>{curl}</span>
+//           <button>✔️</button>
+//           <button>️❌</button>
+//           </li>
+//         })
+//       }
+//     </ul>
+//   </section>
+  
+// </section>
+// </>
+//   )
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+
+
+
+
+// Day 2 ⭐ ⭐ ⭐ 
+// ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
